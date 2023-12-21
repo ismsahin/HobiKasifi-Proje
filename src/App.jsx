@@ -9,7 +9,6 @@ import Nav from './components/Navbar/Nav'
 import Foot from './components/Footer/Foot'
 import Kamphobi from './components/KampHobi/Kamphobi'
 import Satranchobi from './components/SatrancHobi/Satranchobi'
-import Hakkimizda from './components/Hakkimizda/Hakkimizda'
 import Iletisim from './components/Iletisim/Iletisim'
 import Page404 from './components/Page404/Page404'
 
@@ -24,7 +23,6 @@ function App() {
           <Route path="/Fotohobi" element={<Fotohobi/>}/>
           <Route path="/Kamphobi" element={<Kamphobi/>}/>
           <Route path="/Satranchobi" element={<Satranchobi/>}/>
-          <Route path="/Hakkimizda" element={<Hakkimizda/>}/>
           <Route path="/Iletisim" element={<Iletisim/>}/>
           <Route path="*" element={<Page404/>}/>
 

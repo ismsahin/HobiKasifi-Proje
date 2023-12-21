@@ -62,16 +62,7 @@ export function Nav() {
                     Satranç Hobisi
                 </a>
             </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="blue-gray"
-                className="p-1 font-normal text-xl"
-            >
-                <a href="/Hakkimizda" className="flex items-center hover:text-retro_pink  ">
-                    Hakkımızda
-                </a>
-            </Typography>
+            
         </ul>
     );
 
@@ -143,7 +134,8 @@ export function Nav() {
                     {navList}
                     <div className="flex items-center gap-x-1 bg-retro_red rounded-xl w-4/12 mx-auto">
                         <Button fullWidth variant="text" size="sm" className="">
-                            <span>İletişim</span>
+                            <a href="/iletisim"><span>İletişim</span></a>
+                            
                         </Button>
 
                     </div>

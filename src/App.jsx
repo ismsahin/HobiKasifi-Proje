@@ -11,6 +11,7 @@ import Kamphobi from './components/KampHobi/Kamphobi'
 import Satranchobi from './components/SatrancHobi/Satranchobi'
 import Hakkimizda from './components/Hakkimizda/Hakkimizda'
 import Iletisim from './components/Iletisim/Iletisim'
+import Page404 from './components/Page404/Page404'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Satranchobi" element={<Satranchobi/>}/>
           <Route path="/Hakkimizda" element={<Hakkimizda/>}/>
           <Route path="/Iletisim" element={<Iletisim/>}/>
+          <Route path="*" element={<Page404/>}/>
 
         </Routes>
         <Foot/>

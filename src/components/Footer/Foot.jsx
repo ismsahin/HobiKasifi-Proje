@@ -39,7 +39,7 @@ const Foot = () => {
                                 <Typography
                                     variant="small"
                                     color="blue-gray"
-                                    className="mb-3 font-medium opacity-40 text-retro_red text-md md:text-xl font-bold underline"
+                                    className="mb-3 font-medium  text-retro_red text-md md:text-xl font-bold underline text-center "
                                 >
                                     {title}
                                 </Typography>
@@ -49,7 +49,7 @@ const Foot = () => {
                                             as="a"
                                             href="#"
                                             color="gray"
-                                            className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                                            className="py-1.5 font-normal transition-colors text-retro_cyan opacity-80 hover:text-retro_pink shadow-md"
                                         >
                                             {link}
                                         </Typography>

@@ -38,8 +38,8 @@ export function Nav() {
                 color="blue-gray"
                 className="p-1 font-normal text-xl"
             >
-                <a href="/Fotohobi" className="flex items-center hover:text-retro_pink">
-                    Fotoğrafçılık Hobisi
+                <a href="/Fotohobi" className=" flex items-center hover:text-retro_pink">
+                    <div className="i"></div>Fotoğrafçılık Hobisi
                 </a>
             </Typography>
             <Typography
@@ -77,7 +77,7 @@ export function Nav() {
 
     return (
         <div className=" max-h-[768px]  shadow-xl w-full sticky top-0 left-0 z-10 ">
-            <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+            <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 ">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Typography
                         as="a"

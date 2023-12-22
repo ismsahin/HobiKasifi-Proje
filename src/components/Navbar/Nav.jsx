@@ -86,7 +86,7 @@ export function Nav() {
                                 className="hidden lg:inline-block text-sm broder border-solid bg-ferrari_red  py-3"
                             >
                                 <a href="/Iletisim" className="flex items-center">
-                                    <span className="text-lg text-retro_red font-bold border border-collapse border-retro_red rounded-xl p-2 hover:text-retro_yellow hover:border-retro_yellow">İletişim</span>
+                                    <span className="text-lg text-retro_red font-bold border border-collapse border-retro_red rounded-xl p-2 hover:text-retro_yellow hover:border-retro_yellow">Öneri</span>
                                 </a>
 
                             </Button>
@@ -134,7 +134,7 @@ export function Nav() {
                     {navList}
                     <div className="flex items-center gap-x-1 bg-retro_red rounded-xl w-4/12 mx-auto">
                         <Button fullWidth variant="text" size="sm" className="">
-                            <a href="/iletisim"><span>İletişim</span></a>
+                            <a href="/iletisim"><span>Öneri</span></a>
                             
                         </Button>
 

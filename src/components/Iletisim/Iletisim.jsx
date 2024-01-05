@@ -21,7 +21,9 @@ const Iletisim = () => {
             link,
             message
         }
+        
         fetch('http://localhost:5000/api/submitform', {
+            
             
             method: 'POST',
             headers:{
@@ -29,6 +31,12 @@ const Iletisim = () => {
             },
             body: JSON.stringify(data)
         })
+        .then((result) => {
+            console.log(result.text);
+            alert('Kaydınız başarıyla alındı.');
+        }, (error) => {
+            console.log(error.text);
+        });
     }
 
 

@@ -15,6 +15,7 @@ const Iletisim = () => {
 
     const submitHandle = e => {
         e.preventDefault()
+        
         const data = {
             name,
             email,
@@ -34,9 +35,12 @@ const Iletisim = () => {
         .then((result) => {
             console.log(result.text);
             alert('Kaydınız başarıyla alındı.');
+            
         }, (error) => {
             console.log(error.text);
         });
+
+        document.getElementById("contactForm").reset();
     }
 
 

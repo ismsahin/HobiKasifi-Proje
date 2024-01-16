@@ -20,10 +20,10 @@ function App() {
         <Nav/>
         <Routes>
           <Route path="/" element={<Anasayfa />} />
-          <Route path="/Fotohobi" element={<Fotohobi/>}/>
-          <Route path="/Kamphobi" element={<Kamphobi/>}/>
-          <Route path="/Satranchobi" element={<Satranchobi/>}/>
-          <Route path="/Iletisim" element={<Iletisim/>}/>
+          <Route path="/fotohobi" element={<Fotohobi/>}/>
+          <Route path="/kamphobi" element={<Kamphobi/>}/>
+          <Route path="/satranchobi" element={<Satranchobi/>}/>
+          <Route path="/iletisim" element={<Iletisim/>}/>
           <Route path="*" element={<Page404/>}/>
 
         </Routes>

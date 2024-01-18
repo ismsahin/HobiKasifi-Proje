@@ -3,7 +3,7 @@ import { Routes, Route, Link, NavLink } from 'react-router-dom'
 
 import './App.css'
 import Anasayfa from './components/anasayfa'
-import Fotohobi from './components/FotografHobi/Fotohobi'
+import Fotohobi from './components/FotografHobi/fotohobi'
 
 import Nav from './components/Navbar/Nav'
 import Foot from './components/Footer/Foot'
